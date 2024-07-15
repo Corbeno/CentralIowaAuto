@@ -147,25 +147,10 @@ a {
 /*----Nav ----*/
 .header .navbar-brand {
     float: left;
-    padding: 16px 15px;
+    padding: 2px;
     line-height: 18px;
-    height: 50px;
-    /*color:#fb6c00;*/
+    height: 70px;
 }
-
-.navbar-brand b {
-    color: #fb6c00;
-}
-
-.logo {
-    font-size: 2.2em;
-    text-shadow: none;
-    margin: 8px 0 0 0;
-}
-
-    .logo:hover {
-        color: #5A5A5A;
-    }
 
 .navbar-inverse .navbar-brand:hover, .navbar-inverse .navbar-brand:focus {
     color: #FF8930;
@@ -249,7 +234,7 @@ a {
     box-shadow: 0px 0px 1px rgba(0,0,0,0.4);
     max-height: 600px;
     height: 600px;
-    background: url("../images/banner-bg.jpg") no-repeat;
+    background: url("../images/CarshowSquare.jpg") no-repeat;
     background-size: 100% 100%;
     background-size: cover;
 }
