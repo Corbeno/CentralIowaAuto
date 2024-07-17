@@ -11,9 +11,9 @@
 	<!--[if lt IE 9]> 
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
     <![endif]-->
-	<title>Web Trends - Single page website</title>
+	<title>Central Iowa Auto</title>
 	<meta name="description" content="">
-	<meta name="author" content="webThemez">
+	<meta name="author" content="Corbin Kems">
 	<!--[if lt IE 9]>
         <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
     <![endif]-->
@@ -27,10 +27,7 @@
 </head>
 
 <body>
-	<!-- Facebook embed SDK -->
 	<div id="fb-root"></div>
-	<script async defer crossorigin="anonymous" src="https://connect.facebook.net/en_US/sdk.js#xfbml=1&version=v20.0"
-		nonce="wQodPtDd"></script>
 	<header class="header">
 		<div class="container">
 			<nav class="navbar navbar-inverse" role="navigation">
@@ -49,11 +46,9 @@
 				<div id="main-nav" class="collapse navbar-collapse">
 					<ul class="nav navbar-nav" id="mainNav">
 						<li class="active"><a href="#home" class="scroll-link">Home</a></li>
-						<li><a href="#aboutUs" class="scroll-link">About Us</a></li>
-						<li><a href="#services" class="scroll-link">Services</a></li>
-						<li><a href="#portfolio" class="scroll-link">Portfolio</a></li>
-						<li><a href="#team" class="scroll-link">Team</a></li>
-						<li><a href="#contactUs" class="scroll-link">Contact Us</a></li>
+						<li><a href="#nextshow" class="scroll-link">Next show</a></li>
+						<li><a href="#contactus" class="scroll-link">Contact us</a></li>
+						<li><a href="#aboutus" class="scroll-link">About us</a></li>
 					</ul>
 				</div>
 				<!--/.navbar-collapse-->
@@ -63,40 +58,17 @@
 		<!--/.container-->
 	</header>
 	<!--/.header-->
-	<div id="#top"></div>
+
+	<!-- This is here just to add padding so the first section isn't covered by the nav bar -->
+	<div id="#top" class="top"></div>
+
 	<section id="home" class="page-section">
 		<div class="banner-container">
-			<div class="bannerOverlay"></div>
+			<div class="float-image-container">
+				<img src="images/LogoNoBackground.png" class="float-image">
+			</div>
+			<!-- <div class="bannerOverlay"></div> -->
 			<div class="container banner-content">
-				<<!--h1>Responsive Page Scrolling<br /><span>with Bootstrap</span></h1>
-					<p class="lead">Use the navigation above to scroll to different page sections.</p>
-					<p><a href="#about" class="button-outline"> More.. </a></p>-->
-					<div id="da-slider" class="da-slider">
-						<div class="da-slide">
-							<h2>Slide text 1</h2>
-							<p>Slide text 1</p>
-							<div class="da-img"></div>
-						</div>
-						<div class="da-slide">
-							<h2>Slide text 1</h2>
-							<p>Slide text 1</p>
-							<div class="da-img"></div>
-						</div>
-						<div class="da-slide">
-							<h2>Slide text 2</h2>
-							<p>Slide text 2</p>
-							<div class="da-img"></div>
-						</div>
-						<div class="da-slide">
-							<h2>Slide text 3</h2>
-							<p>Slide text 3</p>
-							<div class="da-img"></div>
-						</div>
-						<nav class="da-arrows">
-							<span class="da-arrows-prev"></span>
-							<span class="da-arrows-next"></span>
-						</nav>
-					</div>
 			</div>
 		</div>
 		<section class="sub-heading">
@@ -110,15 +82,82 @@
 				</div>
 			</div><!-- END container -->
 		</section>
+		<section id="nextshow">
+			<div class="container text-center">
+				<div class="row">
+					<div class="col-lg-12">
+						<h2>Next show</h2>
+						<img src="images/ENWIAdd121123_4.jpg" style="width: 75%">
+					</div>
+					<div class="col-lg-12">
+						<h2>Next show sign up</h2>
+						<img src="images/2024-MCCS-Registration.png" style="width: 50%">
+					</div>
+				</div>
+			</div>
+		</section>
 		<!--/.container-->
 	</section>
 
-	<section id="aboutUs" class="page-section darkBg pDark pdingBtm30">
+	<section id="contactus" class="page-section darkBg pDark">
+		<div class="container">
+			<div class="row mrgn30">
+			</div>
+			<div class="row">
+				<div class="heading text-center">
+					<!-- Heading -->
+					<h2>Contact Us</h2>
+					<div class="facebook-link">
+						<a href="https://www.facebook.com/ClAutoClub" target="_blank">
+							<img src="https://upload.wikimedia.org/wikipedia/commons/5/51/Facebook_f_logo_%282019%29.svg" alt="Facebook Logo">
+							<span>Follow us on Facebook</span>
+						</a>
+					</div>
+					<div class="col-sm-4">
+				</div>
+				<div class="col-sm-12">
+					<div class="email-link">
+						<a href="mailto:centraliowaauto@yahoo.com">
+							<span>Email Us: centraliowaauto@yahoo.com</span>
+						</a>
+					</div>
+				</div>
+				<div class="col-sm-12">
+					<h4>Location:</h4>
+					<div id="mapWrapper" class="mb30"
+						style="position: relative; maring-bottom:20px; background-color: rgb(229, 227, 223); overflow: hidden; -webkit-transform: translateZ(0px);">
+						<iframe
+							src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d23964.19757826459!2d-94.03857947990964!3d41.34094778431298!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x87ec0dad6f398b71%3A0x6ed4fbfb7f65dd4d!2sWinterset%2C%20IA%2050273!5e0!3m2!1sen!2sus!4v1721193617440!5m2!1sen!2sus"
+							width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+							referrerpolicy="no-referrer-when-downgrade"></iframe>
+					</div><br />
+				</div>
+			</div>
+		</div>
+		<!--/.container-->
+	</section>
+	<!--/#north-america-->
+
+	<section id="aboutus" class="page-section pdingBtm30">
 		<div class="container">
 			<div class="heading text-center">
 				<!-- Heading -->
 				<h2>About Us</h2>
 				<p>
+					In the summer of 2004, a group of car enthusiasts in Winterset, including Ray Dawson, Bill McDonald,
+					Bob Stephens, Roger Hanson, Dan Bush, and Terry Housman, started showcasing their classic cars. This
+					led to the formation of the Central Iowa Auto Club in 2005. Initially, they held events a few times
+					during the summer, and soon the Madison County Chamber of Commerce asked them to organize the
+					Madison County Car Show during the bridge festival. By 2006, the club scheduled six monthly
+					show-and-shines from April to September, initially at the Sports Page Bar and later at the Maid-Rite
+					due to space constraints. In 2013, they began using one side of the town square for events,
+					significantly boosting local business. To protect the club, they incorporated and achieved
+					non-profit status in 2016, which helped them receive a significant donation. Over the years, the
+					club has given scholarships, provided Thanksgiving meals, and shopped for families at Christmas,
+					making a positive impact on the community.
+				</p>
+				<!-- The above is condensed (chatgpt :} from below) -->
+				<!-- <p>
 					In the summer of 2004 a group of guys got together to show off some of their classic cars from
 					around the Winterset area. Those “guys” were: Ray Dawson, Bill McDonald, Bob Stephens, Roger Hanson,
 					Dan Bush and Terry Housman. They thought this was such a good thing to do that the following year,
@@ -158,382 +197,10 @@
 					event for us as we get together as a group and go to Walmart and buy as much as we can for each
 					family (we set a limit on each family member) then afterwards we go out a celebrate to one of the
 					local restaurants and have a evening meal.
-				</p>
+				</p> -->
 	</section>
 
-	<section id="services" class="page-section">
-		<div class="container">
-			<div class="heading text-center">
-				<!-- Heading -->
-				<h2>Services</h2>
-				<p>At lorem Ipsum available, but the majority have suffered alteration in some form by injected humour.
-				</p>
-			</div>
-			<section class="grid row clearfix clearfix-for-2cols">
-
-				<!-- grid item -->
-				<div class="grid-item col-md-6">
-					<div class="item-content clearfix">
-						<i class="fa fa-cogs fa-5x"></i>
-						<div class="text-content">
-							<h4>Lorem ipsum dolor sit amet</h4>
-							<p>Nullam ac rhoncus sapien, non gravida purus. Aliquam adipiscing eros non elit imperdiet
-								congue. Integer ultricies.</p>
-						</div>
-					</div><!-- end: .item-content -->
-				</div><!-- end: .grid-item -->
-
-				<!-- grid item -->
-				<div class="grid-item col-md-6">
-					<div class="item-content clearfix">
-						<i class="fa fa-bullseye fa-5x"></i>
-						<div class="text-content">
-							<h4>Aliquam adipiscing eros non elit</h4>
-							<p>Nullam ac rhoncus sapien, non gravida purus. Alinon elit imperdiet congue. Integer
-								ultricies sed ligula eget tempus.</p>
-						</div>
-					</div><!-- end: .item-content -->
-				</div>
-				<article class="clearfix"></article><!-- end: .grid-item -->
-
-				<!-- grid item -->
-				<div class="grid-item col-md-6">
-					<div class="item-content clearfix">
-						<i class="fa fa-desktop fa-5x"></i>
-						<div class="text-content">
-							<h4>Integer ultricies sed ligula</h4>
-							<p>Aliquam adipiscing eros non elit imperdiet congue. Integer ultricies sed ligula ligula
-								eget.</p>
-						</div>
-					</div><!-- end: .item-content -->
-				</div><!-- end: .grid-item -->
-
-				<!-- grid item -->
-				<div class="grid-item col-md-6">
-					<div class="item-content clearfix">
-						<i class="fa fa-flask fa-5x"></i>
-						<div class="text-content">
-							<h4>Lorem ipsum dolor sit amet</h4>
-							<p>Nullam ac rhoncus. Aliquam adipiscing eros non elit imperdiet congue. Integer ultricies
-								sed ligula eget tempus.</p>
-						</div>
-					</div><!-- end: .item-content -->
-				</div>
-				<article class="clearfix"></article><!-- end: .grid-item -->
-
-			</section>
-		</div>
-		<!--/.container-->
-	</section>
-
-	<section id="portfolio" class="page-section section appear clearfix">
-		<div class="container">
-
-			<div class="heading text-center">
-				<!-- Heading -->
-				<h2>Portfolio</h2>
-				<p>At lorem Ipsum available, but the majority have suffered alteration in some form by injected humour.
-				</p>
-			</div>
-
-			<div class="row">
-				<nav id="filter" class="col-md-12 text-center">
-					<ul>
-						<li><a href="#" class="current btn-theme btn-small" data-filter="*">All</a></li>
-						<li><a href="#" class="btn-theme btn-small" data-filter=".webdesign">Web Design</a></li>
-						<li><a href="#" class="btn-theme btn-small" data-filter=".photography">Photography</a></li>
-						<li><a href="#" class="btn-theme btn-small" data-filter=".print">Print</a></li>
-					</ul>
-				</nav>
-				<div class="col-md-12">
-					<div class="row">
-						<div class="portfolio-items isotopeWrapper clearfix" id="3">
-
-							<article class="col-md-4isotopeItem webdesign">
-								<div class="portfolio-item">
-									<img src="images/portfolio/img1.jpg" alt="" />
-									<div class="portfolio-desc align-center">
-										<div class="folio-info">
-											<a href="images/portfolio/img1.jpg" class="fancybox">
-												<h5>Project Name</h5>
-												<i class="fa fa-plus-circle fa-2x"></i>
-											</a>
-										</div>
-									</div>
-								</div>
-							</article>
-
-							<article class="col-md-4isotopeItem photography">
-								<div class="portfolio-item">
-									<img src="images/portfolio/img2.jpg" alt="" />
-									<div class="portfolio-desc align-center">
-										<div class="folio-info">
-											<a href="images/portfolio/img2.jpg" class="fancybox">
-												<h5>Project Name</h5>
-												<i class="fa fa-plus-circle fa-2x"></i>
-											</a>
-										</div>
-									</div>
-								</div>
-							</article>
-
-
-							<article class="col-md-4isotopeItem photography">
-								<div class="portfolio-item">
-									<img src="images/portfolio/img3.jpg" alt="" />
-									<div class="portfolio-desc align-center">
-										<div class="folio-info">
-											<a href="images/portfolio/img3.jpg" class="fancybox">
-												<h5>Project Name</h5>
-												<i class="fa fa-plus-circle fa-2x"></i>
-											</a>
-										</div>
-									</div>
-								</div>
-							</article>
-
-							<article class="col-md-4isotopeItem print">
-								<div class="portfolio-item">
-									<img src="images/portfolio/img4.jpg" alt="" />
-									<div class="portfolio-desc align-center">
-										<div class="folio-info">
-											<a href="images/portfolio/img4.jpg" class="fancybox">
-												<h5>Project Name</h5>
-												<i class="fa fa-plus-circle fa-2x"></i>
-											</a>
-										</div>
-									</div>
-								</div>
-							</article>
-
-							<article class="col-md-4isotopeItem photography">
-								<div class="portfolio-item">
-									<img src="images/portfolio/img5.jpg" alt="" />
-									<div class="portfolio-desc align-center">
-										<div class="folio-info">
-											<a href="images/portfolio/img5.jpg" class="fancybox">
-												<h5>Project Name</h5>
-												<i class="fa fa-plus-circle fa-2x"></i>
-											</a>
-										</div>
-									</div>
-								</div>
-							</article>
-
-							<article class="col-md-4isotopeItem webdesign">
-								<div class="portfolio-item">
-									<img src="images/portfolio/img6.jpg" alt="" />
-									<div class="portfolio-desc align-center">
-										<div class="folio-info">
-											<a href="images/portfolio/img6.jpg" class="fancybox">
-												<h5>Project Name</h5>
-												<i class="fa fa-plus-circle fa-2x"></i>
-											</a>
-										</div>
-									</div>
-								</div>
-							</article>
-
-							<article class="col-md-4isotopeItem print">
-								<div class="portfolio-item">
-									<img src="images/portfolio/img7.jpg" alt="" />
-									<div class="portfolio-desc align-center">
-										<div class="folio-info">
-											<a href="images/portfolio/img7.jpg" class="fancybox">
-												<h5>Project Name</h5>
-												<i class="fa fa-plus-circle fa-2x"></i>
-											</a>
-										</div>
-									</div>
-								</div>
-							</article>
-
-							<article class="col-md-4isotopeItem photography">
-								<div class="portfolio-item">
-									<img src="images/portfolio/img8.jpg" alt="" />
-									<div class="portfolio-desc align-center">
-										<div class="folio-info">
-											<a href="images/portfolio/img8.jpg" class="fancybox">
-												<h5>Project Name</h5>
-												<i class="fa fa-plus-circle fa-2x"></i>
-											</a>
-										</div>
-									</div>
-								</div>
-							</article>
-
-							<article class="col-md-4isotopeItem print">
-								<div class="portfolio-item">
-									<img src="images/portfolio/img9.jpg" alt="" />
-									<div class="portfolio-desc align-center">
-										<div class="folio-info">
-											<a href="images/portfolio/img9.jpg" class="fancybox">
-												<h5>Project Name</h5>
-												<i class="fa fa-plus-circle fa-2x"></i>
-											</a>
-										</div>
-									</div>
-								</div>
-							</article>
-						</div>
-
-					</div>
-
-
-				</div>
-			</div>
-
-		</div>
-	</section>
-
-	<section id="team" class="page-section">
-		<div class="container">
-			<div class="heading text-center">
-				<!-- Heading -->
-				<h2>Our Team</h2>
-				<p>At variations of passages of Lorem Ipsum available, but the majority have suffered alteration..</p>
-			</div>
-			<!-- Team Member's Details -->
-			<div class="team-content">
-				<div class="row">
-					<div class="col-md-3 col-sm-6 col-xs-6">
-						<!-- Team Member -->
-						<div class="team-member pDark">
-							<!-- Image Hover Block -->
-							<div class="member-img">
-								<!-- Image  -->
-								<img class="img-responsive" src="images/photo-1.jpg" alt="">
-							</div>
-							<!-- Member Details -->
-							<h3>John Doe</h3>
-							<!-- Designation -->
-							<span class="pos">CEO</span>
-							<div class="descrition">
-								<p>Ut wisi enim ad minimpit lobortis nisl ut aliquip ex ea commodo consequat.</p>
-							</div>
-						</div>
-					</div>
-					<div class="col-md-3 col-sm-6 col-xs-6">
-						<!-- Team Member -->
-						<div class="team-member pDark">
-							<!-- Image Hover Block -->
-							<div class="member-img">
-								<!-- Image  -->
-								<img class="img-responsive" src="images/photo-2.jpg" alt="">
-							</div>
-							<!-- Member Details -->
-							<h3>Larry Doe</h3>
-							<!-- Designation -->
-							<span class="pos">Art Director</span>
-							<div class="descrition">
-								<p>Ut wisi enim ad minimpit lobortis nisl ut aliquip ex ea commodo consequat.</p>
-							</div>
-						</div>
-					</div>
-					<div class="col-md-3 col-sm-6 col-xs-6">
-						<!-- Team Member -->
-						<div class="team-member pDark">
-							<!-- Image Hover Block -->
-							<div class="member-img">
-								<!-- Image  -->
-								<img class="img-responsive" src="images/photo-3.jpg" alt="">
-							</div>
-							<!-- Member Details -->
-							<h3>Ranith Kays</h3>
-							<!-- Designation -->
-							<span class="pos">Manager</span>
-							<div class="descrition">
-								<p>Ut wisi enim ad minimpit lobortis nisl ut aliquip ex ea commodo consequat.</p>
-							</div>
-						</div>
-					</div>
-					<div class="col-md-3 col-sm-6 col-xs-6">
-						<!-- Team Member -->
-						<div class="team-member pDark">
-							<!-- Image Hover Block -->
-							<div class="member-img">
-								<!-- Image  -->
-								<img class="img-responsive" src="images/photo-4.jpg" alt="">
-							</div>
-							<!-- Member Details -->
-							<h3>Joan Ray</h3>
-							<!-- Designation -->
-							<span class="pos">Creative</span>
-							<div class="descrition">
-								<p>Ut wisi enim ad minimpit lobortis nisl ut aliquip ex ea commodo consequat.</p>
-							</div>
-						</div>
-					</div>
-				</div>
-			</div>
-		</div>
-		<!--/.container-->
-	</section>
-
-	<section id="contactUs" class="page-section">
-		<div class="container">
-
-			<div class="row">
-				<div class="heading text-center">
-					<!-- Heading -->
-					<h2>Contact Us</h2>
-					<p>The best way to contact us is....</p>
-				</div>
-				<div class="col-sm-12">
-					<div id="mapWrapper" class="mb30"
-						style="position: relative; maring-bottom:20px; background-color: rgb(229, 227, 223); overflow: hidden; -webkit-transform: translateZ(0px);">
-						<iframe
-							src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2996.432998731825!2d-93.94369212322987!3d41.32119690009713!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x87ec0f1b9c5a5b67%3A0xc82a79dabe45d365!2s2283%20Pioneer%20Ave%2C%20Winterset%2C%20IA%2050273!5e0!3m2!1sen!2sus!4v1721021291543!5m2!1sen!2sus"
-							width="1200" height="400" frameborder="0" style="border:0;" allowfullscreen=""
-							loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
-					</div><br />
-				</div>
-			</div>
-
-			<div class="row mrgn30">
-				<div class="col-sm-4">
-					<h4>Email:</h4>
-					<email>
-						centraliowaauto@yahoo.com<br>
-					</email>
-					<h4>Address:</h4>
-					<address>
-						2283 Pioneer Ave.,<br>
-						Winterset, IA, United States, 50273 <br>
-					</address>
-				</div>
-				<!-- <form method="post" action="" id="contactfrm" role="form">
-
-									<div class="col-sm-4"> 
-										<div class="form-group">
-											<label for="name">Name</label>
-											<input type="text" class="form-control" name="name" id="name" placeholder="Enter name" title="Please enter your name (at least 2 characters)">
-										</div>
-										<div class="form-group">
-											<label for="email">Email</label>
-											<input type="email" class="form-control" name="email" id="email" placeholder="Enter email" title="Please enter a valid email address">
-										</div>
-										<div class="form-group">
-											<label for="phone">Phone</label>
-											<input name="phone" class="form-control required digits" type="tel" id="phone" size="30" value="" placeholder="Enter email phone" title="Please enter a valid phone number (at least 10 characters)">
-										</div>
-									</div>
-									<div class="col-sm-4">
-										<div class="form-group">
-											<label for="comments">Comments</label>
-											<textarea name="comment" class="form-control" id="comments" cols="3" rows="5" placeholder="Enter your message…" title="Please enter your message (at least 10 characters)"></textarea>
-										</div>	
-										<button name="submit" type="submit" class="btn btn-lg btn-primary" id="submit"> Submit</button>		
-										<div class="result"></div>										
-									</div>                        									
-								</form> -->
-			</div>
-		</div>
-		<!--/.container-->
-	</section>
-	<!--/#north-america-->
-
-	<footer class="page-section">
+	<!-- <footer class="page-section">
 		<div class="container">
 			<div class="row">
 				<div class="col-md-4 col-sm-6 about">
@@ -576,13 +243,13 @@
 				</div>
 			</div><!-- END Row -->
 		</div>
-	</footer>
+	</footer> -->
 	<!--/.page-section-->
 	<section class="copyright">
 		<div class="container">
 			<div class="row">
 				<div class="col-sm-12">
-					Copyright 2014 All Rights Reserved <div class="pull-right">Template by <a
+					Copyright 2024 All Rights Reserved <div class="pull-right">Template by <a
 							href="http://webThemez.com"> WebThemez.com</a></div>
 				</div>
 			</div> <!-- / .row -->
