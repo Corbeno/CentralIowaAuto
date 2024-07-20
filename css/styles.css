@@ -125,6 +125,11 @@ a:hover {
     border-top: 2px solid #fb6c00;
 }
 
+.header-banner {
+    position: relative;
+    text-align: center;
+}
+
 .navbar-inverse .navbar-toggle {
     border-color: #fb6c00;
     background-color: #fb6c00;
