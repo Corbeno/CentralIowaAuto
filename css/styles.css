@@ -847,3 +847,8 @@ footer {
     font-weight: bold;
     user-select: text; /* Make the email address selectable */
 }
+
+.link {
+    font-size: 28px;
+    color: blue;
+}
